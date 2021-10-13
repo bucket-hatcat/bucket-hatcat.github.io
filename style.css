@@ -1,0 +1,93 @@
+
+
+
+nav {
+    height: 100%;
+    width: inherit;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+
+    transition: 0.5s; 
+   
+  }
+
+
+.name-hero{
+    height: 390px;
+    background-color: #fce580;   
+}
+
+.name-hero h1{
+    padding-top: 40px;
+    padding-left: 5px;
+    font-size: 100px;
+    text-align: center;
+    color:#39393b;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 1.5rem;
+}
+
+.bio{
+    display: flex;
+    background-color:#cf9ab8;
+    height: 390px;
+    
+} 
+
+.bio h2{
+    text-align: center;
+    font-family: 'Expletus Sans';
+    padding-top: 7rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    color: white;
+    font-size: 44px;
+}
+
+.shapes{
+    color: #39393b;
+    display:inline-flexbox;
+    height: 600px;
+    font-family: 'Megrim';
+    font-weight: 1000;
+    background-color:#39393b;
+    font-size: 100px;
+    text-align: center;
+}
+    
+footer {
+    position: relative;
+}
+
+#wwks{
+    color: 00000;
+    display:flex;
+    height: 390px;
+    font-family: 'raleway';
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: center;
+}
+
+#kanye {
+    margin: 0;
+    position: absolute;
+    border: none;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#quote {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
