@@ -22,14 +22,14 @@ https://flickity.metafizzy.co
   
   /* draggable */
   
-  .flickity-enabled.is-draggable {
+  /* .flickity-enabled.is-draggable {
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
   }
-  
+   */
   /* .flickity-enabled.is-draggable .flickity-viewport {
     cursor: move;
     cursor: -webkit-grab;
@@ -101,7 +101,7 @@ https://flickity.metafizzy.co
   
   /* ---- page dots ---- */
   
-  .flickity-page-dots {
+  /* .flickity-page-dots {
     position: absolute;
     width: 100%;
     bottom: -25px;
@@ -127,4 +127,4 @@ https://flickity.metafizzy.co
   
   .flickity-page-dots .dot.is-selected {
     opacity: 1;
-  }
+  } */
