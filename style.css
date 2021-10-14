@@ -115,6 +115,32 @@ right: 47.9%;
 
 }
 
+/* external css: flickity.css */
+
+
+.copy {
+    text-align: center;
+    justify-self: center;
+    width: 66%;
+    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+    background:transparent;
+    border-radius: 50rem;
+    counter-increment: copy;
+    font-family: "raleway";
+}
+
+h2{
+    text-align: center;
+    justify-self: center;
+    font-size: 44px;
+    color: white;
+    font-family: 'Expletus Sans';
+    margin: 3em;
+}
+
+
 .shapes{
     color: #39393b;
     display:inline-flexbox;
@@ -134,8 +160,9 @@ footer {
 
 div#wwks.container-fluid{
     height: 500px;
-    background-image: url("gettyimages-489061288_wide-f1b66bae6eca1f87470b8f546cada6e58b6dac65.jpeg");
-    background-repeat: no-repeat, repeat;
+    background-image: url("Kanye-West.jpeg");
+
+    background-repeat: repeat;
 
 }
 
