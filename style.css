@@ -116,23 +116,21 @@ letter-spacing: .5rem;
     margin:0.2em auto;
     } 
 } 
-
 #name-hero{
-
     display: flex;
     flex-direction: column;
-    height: 30vw;
+    height: 40vw;
     background-color: #fce580; 
     position: relative;
 }
-
 #name-hero h1{
     text-align: center;
     font-size: 10vw;
     color:#39393b;
     font-family: 'Metal Mania';
     letter-spacing: 1vw;
-    padding-top: 4vw;
+    margin-top: 1em;
+    justify-self: center;
 }
     #name-hero a{
     position:absolute;
@@ -142,46 +140,42 @@ letter-spacing: .5rem;
 #bio{
     display: flex;
     background-color:#cf9ab8;
-    height: 80vw; 
-    justify-items: center; 
+    height: 40vw; 
+    justify-items: center;  
 }
 #bio a{
     position:absolute;
-    right: 50%;
-    
+    right: 50%;  
 }
 #bio .h2{
-  font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  align-self: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 4vw;
+    align-self: center;
     color: white;
     font-family: 'Expletus Sans';
     text-align: center;
-
-
+    overflow-wrap: break-word;
 }
 
 /* external css: flickity.css */
 .copy {
     text-align: center;
-
     width: 66%;
     height: 10vw;
-   
     background:transparent;
     counter-increment: copy;
     font-size: 2vw;
     font-family: "raleway";
-}
+  }
 h2{
     text-align: center;
     justify-self: center;
-    font-size: 44vw;
+    font-size: 2rem;
     color: white;
     font-family: 'Expletus Sans';
     margin: 3vw;
 }
-
-
 .shapes{
     color: #39393b;
     display:flex;
@@ -191,35 +185,30 @@ h2{
     background-color:#39393b;
     font-size: 100px;
     text-align: center;
-}
-    
+}    
 footer {
     position: relative;
-    height: 100%;
-
-    
-    
+    height: 100%;  
 }
 
 div#wwks.container-fluid{
-    height: 80vw;
+    height: 30em;
     background-image: url("clouds.jpeg");
     background-position-y: center;
     background-repeat: repeat;
     background-size:cover;
-    
 }
 
 #wwks{
     display:flex;
     font-family: 'raleway';
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
 div#kanye.btn {
-    padding: 3px;
+    padding: 5px;
     margin: 0;
     position: absolute;
     border: none;
