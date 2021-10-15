@@ -105,15 +105,13 @@ letter-spacing: .5rem;
     text-align: center;
   }
 
-
-
-    a.button:hover{
+  a.button:hover{
     background-color:#231f20;
     color:#94844b;
     border-color:#231f20;
     }
-    @media all and (min-width: 576px){
-     a.button{
+  @media all and (min-width: 576px){
+    a.button{
     display:block;
     margin:0.2em auto;
     } 
@@ -139,26 +137,26 @@ letter-spacing: .5rem;
     #name-hero a{
     position:absolute;
     bottom:0;
-    right: 47.9%;
+    right: 26%;
 }
 #bio{
     display: flex;
     background-color:#cf9ab8;
-    height: 35vw;  
+    height: 80vw; 
+    justify-items: center; 
 }
 #bio a{
     position:absolute;
-    right: 19.4%;
+    right: 50%;
     
 }
 #bio .h2{
-    font-display:block;
-    text-align: center;
-    justify-self: center;
-    font-size: 4vw;
+  font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  align-self: center;
     color: white;
     font-family: 'Expletus Sans';
-    margin: 3em;
+    text-align: center;
+
 
 }
 
@@ -197,26 +195,26 @@ h2{
     
 footer {
     position: relative;
+    height: 100%;
+
     
     
 }
 
 div#wwks.container-fluid{
-    height: 63vw;
+    height: 80vw;
     background-image: url("clouds.jpeg");
     background-position-y: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size:cover;
-    width: ;
     
-
 }
 
 #wwks{
     display:flex;
     font-family: 'raleway';
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
